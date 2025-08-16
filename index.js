@@ -5,7 +5,7 @@ const port = 3000;
 app.get("/info", (req, res) => {
   res.json({
     nombre: "Cesar Fernando Sazo",
-    cancionFavorita: "Moviendo Caderas - Daddy Yanke"
+    albumFavorito: "Elevate - Big Time rush"
   });
 });
 
